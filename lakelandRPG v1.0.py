@@ -90,6 +90,12 @@ def lakelandRPG():
         NerdIntro()
     if characterClass == 'Artsy':
         ArtsyIntro()
+    if characterClass == 'Jock':
+        JockIntro()
+    if characterClass == 'Preppy':
+        PreppyIntro()
+    if characterClass == 'Dork':
+        DorkIntro()
 def GeekIntro():
     print '[Geek intro goes here]'
 def NerdIntro():
