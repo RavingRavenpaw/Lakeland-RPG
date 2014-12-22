@@ -68,6 +68,11 @@ def lakelandRPG():
     print "Hello", player_name, "!"
     print "Your gender can be male, female, on anything that you want."
     gender = raw_input("Gender: ")
+    #Lowecase letters. Just. No...
+    if gender == 'male':
+        gender = 'Male'
+    if gender == 'female':
+        gender = 'Female'
     print "Choose a class."
     # Print the list of classes.
     for classNum in range(0, 6):
@@ -79,10 +84,12 @@ def lakelandRPG():
         print "Invalid class. Please type with a capital letter."
         characterClass = raw_input("Class: ")
     print "You are a", characterClass
-    #introClass = characterClass + 'Intro'
-    #introClass()
     if characterClass == 'Geek':
         GeekIntro()
+    if characterClass == 'Nerd':
+        NerdIntro()
+    if characterClass == 'Artsy':
+        ArtsyIntro()
 def GeekIntro():
     print '[Geek intro goes here]'
 def NerdIntro():
