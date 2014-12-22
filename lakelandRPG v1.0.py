@@ -85,3 +85,13 @@ def lakelandRPG():
         GeekIntro()
 def GeekIntro():
     print '[Geek intro goes here]'
+def NerdIntro():
+    print '[Nerd intro goes here]'
+def ArtsyIntro():
+    print '[Artsy intro goes here]'
+def JockIntro():
+    print '[Jock intro goes here]'
+def PreppyIntro():
+    print '[Preppy intro goes here]'
+def DorkIntro():
+    print '[Dork intro goes here]'
